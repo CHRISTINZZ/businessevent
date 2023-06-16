@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Grocery Store</title>
+  <style>
+   
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      background-color: #fff;
+      opacity: 0.9;
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+    h1{
+      text-decoration: solid;
+      text-align: center;
+      color: #fff;
+      
+    }
+    h2 {
+      color: #333;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product-item {
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .product-item img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .product-item h3 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .product-item p {
+      color: #777;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .product-item button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .search-container {
+      text-align: center;
+      margin-bottom: 20px;
+      
+    }
+
+    .search-container input[type=text] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+    }
+
+    .search-container button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product-item img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(backgd.jpg); /* Replace with the background image URL */
+  background-size: cover;
+}
+.outer{
+    padding-left: 40pc;
+    
+    
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <img  src="logos.jpg" alt="Logo" width="1700px" height="400px"> <!-- Replace with the image URL of your logo -->
+    <h1>Welcome to My Grocery Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Today's Live sale</h2>
+      <div class="product-container">
+        <div class="product-item">
+           
+          <img src="banana chips.jpg" alt="Product 1">
+        <label style="font-size: larger;text-decoration: solid;">₹140</label>
+         
+          <h3>Kerala Banana Chips</h3>
+          <p>Experience the crispy and savory delight of traditional Kerala banana chips, made from ripe, locally sourced bananas and seasoned with aromatic spices.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="black pepper.jpg" alt="Product 2">
+          <label style="font-size: larger;text-decoration: solid;">₹135</label>
+          <h3> Alleppey Black Pepper</h3>
+          <p>Add a burst of flavor to your dishes with the renowned Alleppey black pepper, known for its strong aroma and distinct taste.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="spice.jpg" alt="Product 3">
+          <label style="font-size: larger;text-decoration: solid;">₹110</label>
+          <h3>Malabar Spices Combo</h3>
+          <p> Explore the diverse flavors of Kerala with a combo pack of Malabar spices, including turmeric, cardamom, cinnamon, and cloves, for authentic and aromatic culinary experiences.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="nendran.png" alt="Product 4">
+          <label style="font-size: larger;text-decoration: solid;">₹50/kg</label>
+          <h3>Nendran Bananas</h3>
+          <p>Enjoy the unique taste and versatility of Nendran bananas, a popular variety in Kerala used for making delectable dishes like banana fritters and traditional desserts.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="karimeen.jpg" alt="Product 5">
+          <label style="font-size: larger;text-decoration: solid;">₹475/kg</label>
+          <h3>Karimeen (Pearl Spot) Fish</h3>
+          <p> Offer Karimeen, also known as Pearl Spot Fish, a popular and highly prized fish in Kerala, used to prepare delicious and flavorful fish curries and fry.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="flour.jpg" alt="Product 6">
+          <label style="font-size: larger;text-decoration: solid;">₹42</label>
+          <h3>Palakkadan Matta Rice Flour</h3>
+          <p>Provide Palakkadan Matta Rice Flour, made from the indigenous red rice variety, which is commonly used to make traditional Kerala snacks like puttu and appam.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="rice.jpg" alt="Product 7">
+          <h3>Kerala Matta Rice</h3>
+          <label style="font-size: larger;text-decoration: solid;">₹99/kg</label>
+          <p> Offer the nutritious and aromatic Kerala Matta Rice, also known as Rosematta Rice, which is widely used in Kerala cuisine for its unique taste and health benefits.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="oil.jpeg" alt="Product 8">
+          <br>
+          
+          <label style="font-size: larger;text-decoration: solid;">₹149</label>
+          <h3>Kerala Coconut Oil</h3>
+          <p> Offer pure and cold-pressed Kerala Coconut Oil, known for its superior quality and numerous health benefits. It is a staple ingredient in Kerala cuisine and widely used for hair and skincare.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="payasam.jpg" alt="Product 9">
+          <label style="font-size: larger;text-decoration: solid;">₹150</label>
+          <h3>Kerala Payasam Mixes</h3>
+          <p>Stock Kerala Payasam Mixes, which are pre-mixed combinations of rice, jaggery, and other ingredients, allowing customers to easily prepare traditional Kerala sweet dishes like Palada Payasam and Ada Pradhaman.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="pickel.jpg" alt="Product 10">
+          <label style="font-size: larger;text-decoration: solid;">₹90</label>
+          <h3>Kerala Fish Pickle</h3>
+          <p>Offer Kerala Fish Pickle, a tangy and spicy pickle made with locally caught fish, marinated in a blend of spices, and preserved in oil. It is a favorite accompaniment to meals in Kerala.</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section style="background-color: black;">
+        
+        <h1 >HELP:</h1>
+        <h2 style="color: #fff;">Connect us with:</h2>
+        <h4 style="color: #fff;">E-mail:Mygrocery@gmail.com</h4>
+        <h4 style="color: #fff;">Ph-no:9876543210</h4>
+        <br>
+       
+        <br>
+       
+     <div class="outer" >
+       
+        <div>
+         <a href="https://whatsapp.com" target="_blank">
+        <img width="50" height="50" align="left" src="whatsapp.png">
+        </a>
+        </div>
+        <div>
+           <a href="https://instagram.com" target="_blank">
+            <img width="50" height="50" align="left"  src="instagram.png" >
+           </a>
+        </div>
+        <div>
+            <a href="https://youtube.com" target="_blank">
+            <img width="50" height="50" align="left"src="youtube.png">
+            </a>
+        </div>
+        <div>
+            <a href="https://twitter.com" target="_blank">
+            <img width="50" height="50" align="left" src="twitter.png">
+            </a>
+        </div>
+       
+    </div>
+    
+    </section>
+
+  <footer>
+    <p>&copy; 2023 My Grocery Store.</p>
+  </footer>
+</body>
+
+</html>
